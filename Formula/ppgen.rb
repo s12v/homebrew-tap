@@ -5,23 +5,23 @@ class Ppgen < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/s12v/ppgen/releases/download/v0.1.1/ppgen-aarch64-apple-darwin.tar.gz"
-      sha256 "7562c2872c898b106b27b70a28546602c4f681d16c8459911f89f8e96c248467"
+      url "https://github.com/s12v/ppgen/releases/download/v0.2.0/ppgen-aarch64-apple-darwin.tar.gz"
+      sha256 "56387187eabdee05c6f10615a7e71e66dc5ec8f1e8ec463c096fd60feece5825"
     end
     on_intel do
-      url "https://github.com/s12v/ppgen/releases/download/v0.1.1/ppgen-x86_64-apple-darwin.tar.gz"
-      sha256 "33fa12f6da248ca64025b980db17c471f6c13c3de37bfec58b4b9188a40d3e51"
+      url "https://github.com/s12v/ppgen/releases/download/v0.2.0/ppgen-x86_64-apple-darwin.tar.gz"
+      sha256 "3099b4e1199c1f39bed43f0e0ab1552eb3e6187f45dc030cec80c078cbf4735d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/s12v/ppgen/releases/download/v0.1.1/ppgen-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ee386998d995c1e47fbce711e7f9137afd1d97cae26459dc04813508e106e91f"
+      url "https://github.com/s12v/ppgen/releases/download/v0.2.0/ppgen-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "00e8e9aa34b0f5f4c467af5c162e1b523ea130ba48165ebd9dd2f97746aad151"
     end
     on_intel do
-      url "https://github.com/s12v/ppgen/releases/download/v0.1.1/ppgen-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9d2a4fe586cd6c417d9aaa5e038b0f05515922206e9afa7f8534866f124249a4"
+      url "https://github.com/s12v/ppgen/releases/download/v0.2.0/ppgen-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "013a9973848b7021b95b7d13186fb42c72eed50c04e1e69036cd8f08aceacb07"
     end
   end
 
