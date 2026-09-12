@@ -1,7 +1,6 @@
 class Ppgen < Formula
   desc "Random, easy-to-remember passphrases from the EFF wordlist"
   homepage "https://github.com/s12v/ppgen"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
